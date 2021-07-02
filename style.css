@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    font-size:16px;
+    font-family:'Work Sans', 'Arial', sans-serif;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/***** CLEARFIX SECTION *******/
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: " ";
+    clear:both;
+    display: table;
+    visibility: hidden;
+}
+
+/********* HEADER SECTION *******/
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,.3), rgb(0,0,0,.7)), url(img/header-img\ 2.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-box-text {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 500%;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 200%;
+    color: #fff;  
+    font-weight: 400;
+}
+
+/******** Buttons ********/
+
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: rgb(19, 149, 179);
+    color: #fff
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #05355a;
+}
+
+.btn1:link,
+.btn1:visited {
+    border: 2px solid rgb(19, 149, 179);
+    color: rgb(19, 149, 179);
+}
+
+.btn1:hover,
+.btn1:active {
+    background-color: #05355a;
+    color: #fff;
+}
+
+/****** navigation bars and links **********/
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+border-bottom: 2px solid rgb(19, 149, 179);
+}
+
+/******** ABOUT SECTION *******/
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+}
+
+.laptop-image {
+    width: 80%;
+    border-radius: 10%;
+}
+
+.about-heading {
+    color: #000;
+    font-size: 250%;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.about-para {
+    color: rgb(63, 59, 59);
+    margin-bottom: 50px;
+}
+
+.about-box {
+    margin-top: 120px;
+}
+
+.about-box:first-child {
+    text-align: left;
+    padding-right: 5px;
+}
+
+.about-box:last-child {
+    text-align: right;
+}
+
+.about-section {
+    padding: 20px;
+}
+
+/******** WORK SECTION ********/
+
+.section-heading {
+    font-size: 250%;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.section-subheading {
+    font-size: 150%;
+    color: rgba(22, 19, 19, 0.713);
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.section-subheading:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(19, 149, 179);
+    content: " ";
+    margin: 30px auto 0 auto;
+}
+
+.work-section {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.work-portfolio {
+    margin-top: 20px;
+    list-style: none;
+    width: 100;
+}
+
+.work-portfolio li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.portfolio-image {
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: 250px;
+    opacity: .7;
+    transform: scale(1.1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.portfolio-image img:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.work-para {
+    color: #fff;
+}
+
+/******* SERVICES SECTION *******/
+.services-section {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.service-box {
+    padding: 1% 3%;
+}
+
+.big-icon {
+    font-size: 250%;
+    color: #077b8a;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.service-heading {
+    font-size: 150%;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.service-para {
+    color: #555;
+    font-size: 90%;
+    margin-bottom: 20px;
+}
+
+.service-link {
+    color: rgb(19, 149, 179);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/******** PARTNERS SESSION ******/
+
+.partners-section {
+    text-align: center;
+}
+
+.partner-logo {
+    width: 65%;
+    height: auto:
+}
