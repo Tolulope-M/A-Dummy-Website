@@ -1,4 +1,4 @@
-A Professional Website
+A practical webpage for a company.
 
 
 
